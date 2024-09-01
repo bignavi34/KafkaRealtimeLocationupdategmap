@@ -1,0 +1,1 @@
+Hello everyone,this is a realtime location update application using kafka for realtime location update of latitude and longitude and storing them in datebase  in django and producing realtime location update at client side
