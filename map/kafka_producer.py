@@ -26,7 +26,7 @@ while True:
     print(data)
     producer.produce(topic,json.dumps(data).encode('utf-8'),callback=delivery_report)
     producer.flush()
-    
+    print()
     current_step+=1
     if current_step>num_step:
         current_step=0
